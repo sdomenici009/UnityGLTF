@@ -13,7 +13,7 @@ using UnityGLTF;
 public class GLTFAssetGeneratorTests
 {
 	private const int IMAGE_SIZE = 400;
-	private const float PIXEL_TOLERANCE = 0.01f; // Tolerance based on the estimate that humans see about 1 million colors
+	private const float PIXEL_TOLERANCE = 0.5f; // Tolerance based on the estimate that humans see about 1 million colors
 	private static string GLTF_ASSETS_PATH = Application.dataPath + "/../www/glTF-Asset-Generator/Output/Positive/";
 	private static string GLTF_MANIFEST_PATH = GLTF_ASSETS_PATH + "manifest.json";
 	private static string GLTF_SCENARIO_OUTPUT_PATH = Application.dataPath + "/../ScenarioTests/Output/";
